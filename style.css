@@ -1,0 +1,54 @@
+*{
+    outline: none;
+    font-family:'Arial', sans-serif;
+}
+body{
+    background-color: rgb(14, 159, 207);
+    padding: 16px;
+    margin:0;
+    color: black;
+    width: 400px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+textarea,
+select,
+button{
+    width: 100px;
+    padding:10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+    border-radius: 14px;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+textarea{
+resize:none;
+overflow-y:scroll;
+}
+button{
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+}
+
+button:hover{
+    background-color: darkblue;
+}
+#outputText{
+    background-color: white;
+    min-height: 80px;
+    border: 1px solid blue;
+    border-radius: 14px;
+    padding: 10px;
+    font-size: 14px;
+    white-space: pre-wrap;
+}
